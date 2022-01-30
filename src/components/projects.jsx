@@ -1,10 +1,35 @@
-// Stylesheets
 import "./projects.css";
-
-// Data
+import { useEffect } from "react";
+import gsap from "gsap";
 import { PROJECTS } from "../content/data";
 
 const ProjectsSection = () => {
+	useEffect(() => {
+		const tl = gsap.timeline();
+
+		tl.to("#proj-heading", {
+			scrollTrigger: "#proj-heading",
+			opacity: 1,
+			duration: 2,
+			delay: 3.5,
+		})
+			.from("#proj-heading", {
+				x: -100,
+				duration: 2,
+				delay: -2,
+			})
+			.to(".proj-cont", {
+				scrollTrigger: ".proj-cont",
+				opacity: 1,
+				duration: 2,
+				delay: -1,
+			})
+			.from(".proj-cont", {
+				y: 100,
+				duration: 2,
+				delay: -2,
+			});
+	}, []);
 	return (
 		<section className="projects" id="projects">
 			<header>

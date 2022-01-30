@@ -11,22 +11,19 @@ const SkillsSection = () => {
 			scrollTrigger: "#skills-heading",
 			opacity: 1,
 			duration: 2,
-			delay: 4,
+			delay: 3.5,
 		})
 			.from("#skills-heading", {
-				scrollTrigger: "#skills-heading",
 				x: -100,
 				duration: 2,
 				delay: -2,
 			})
 			.to(".skill-cont", {
-				scrollTrigger: ".skill-cont",
 				opacity: 1,
 				duration: 1.5,
 				delay: -1,
 			})
 			.from(".skill-cont", {
-				scrollTrigger: ".skill-cont",
 				y: 100,
 				duration: 1.5,
 				delay: -1.5,
