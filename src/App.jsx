@@ -1,7 +1,13 @@
 import "./App.css";
 
+import LandingSection from "./components/landing";
+
 const App = () => {
-	return <div>Hello World</div>;
+	return (
+		<main>
+			<LandingSection />
+		</main>
+	);
 };
 
 export default App;
