@@ -45,20 +45,21 @@ const LandingSection = () => {
 						I am a <span className="green">DevOps Engineer</span>
 					</h3>
 				</article>
-				<img src={Illustration} alt="Illustration" height="" />
-				<div class="mouse_scroll">
-					<div class="mouse">
-						<div class="wheel"></div>
+				<img src={Illustration} alt="Illustration" />
+				<a data-scroll href="#about">
+					<div class="mouse_scroll">
+						<div class="mouse">
+							<div class="wheel"></div>
+						</div>
+						<div>
+							<span class="m_scroll_arrows unu"></span>
+							<span class="m_scroll_arrows doi"></span>
+							<span class="m_scroll_arrows trei"></span>
+						</div>
 					</div>
-					<div>
-						<span class="m_scroll_arrows unu"></span>
-						<span class="m_scroll_arrows doi"></span>
-						<span class="m_scroll_arrows trei"></span>
-					</div>
-				</div>
+				</a>
 			</main>
 		</section>
 	);
 };
-
 export default LandingSection;

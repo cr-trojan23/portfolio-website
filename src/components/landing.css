@@ -2,6 +2,8 @@
 	position: fixed;
 	width: 100%;
 	box-sizing: border-box;
+	z-index: 10;
+	background-color: #f5f6fd;
 }
 
 .nav-links {
@@ -75,7 +77,6 @@ img {
 	height: 250px;
 }
 
-/* Chevron animation from https://codepen.io/rightblog/pen/EagNMN/*/
 *,
 *:before,
 *:after {
@@ -97,8 +98,8 @@ img {
 	display: block;
 	width: 5px;
 	height: 5px;
-	-ms-transform: rotate(45deg); /* IE 9 */
-	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 
 	border-right: 2px solid #43b97f;
