@@ -1,0 +1,15 @@
+export const SKILLS = [
+	{ name: "AWS", skill: 90 },
+	{ name: "Azure", skill: 80 },
+    { name: "Python", skill: 80 },
+    { name: "Java", skill: 75 },
+	{ name: "JavaScript", skill: 55 },
+	{ name: "PostgreSQL", skill: 53 },
+	{ name: "MySQL", skill: 62 },
+	{ name: "Docker", skill: 79 },
+	{ name: "Deployment", skill: 98 },
+	{ name: "CI/CD", skill: 75 },
+    { name: "Ubuntu server", skill: 62 },
+    { name: "Git", skill: 80 },
+    { name: "Shell Scripting", skill: 60 },
+];
