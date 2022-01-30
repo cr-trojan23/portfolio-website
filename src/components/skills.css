@@ -13,11 +13,9 @@
 	overflow: scroll;
 }
 
-
 .skill-cont::-webkit-scrollbar {
 	display: none;
 }
-
 
 .skill-cont {
 	-ms-overflow-style: none; /* IE and 
@@ -54,9 +52,11 @@
 	.skills {
 		padding: 0;
 		padding-left: 2rem;
+		min-height: inherit;
 	}
 
 	.skill-cont {
 		margin-right: 1rem;
+		margin-bottom: 0;
 	}
 }
