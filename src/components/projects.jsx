@@ -1,6 +1,10 @@
-import "./projects.css";
 import { useEffect } from "react";
 import gsap from "gsap";
+
+// Stylesheets
+import "./projects.css";
+
+// Data
 import { PROJECTS } from "../content/data";
 
 const ProjectsSection = () => {
@@ -30,10 +34,13 @@ const ProjectsSection = () => {
 				delay: -2,
 			});
 	}, []);
+
 	return (
 		<section className="projects" id="projects">
 			<header>
-				<h2 className="heading">Projects</h2>
+				<h2 className="heading" id="proj-heading">
+					Projects
+				</h2>
 			</header>
 			<main>
 				<article className="proj-cont">

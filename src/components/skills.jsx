@@ -19,6 +19,7 @@ const SkillsSection = () => {
 				delay: -2,
 			})
 			.to(".skill-cont", {
+				scrollTrigger: ".skill-cont",
 				opacity: 1,
 				duration: 1.5,
 				delay: -1,
@@ -29,14 +30,15 @@ const SkillsSection = () => {
 				delay: -1.5,
 			})
 			.from(".bar", {
-				scrollTrigger: ".skill-cont",
 				height: 0,
 			});
 	}, []);
 	return (
 		<section className="skills" id="skills">
 			<header>
-				<h2 className="heading">Skills</h2>
+				<h2 className="heading" id="skills-heading">
+					Skills
+				</h2>
 			</header>
 			<main>
 				<article className="skill-cont">
