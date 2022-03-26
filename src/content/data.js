@@ -2,8 +2,8 @@ export const SKILLS = [
 	{ name: "AWS", skill: 90 },
 	{ name: "Azure", skill: 80 },
 	{ name: "Python", skill: 80 },
-	{ name: "Java", skill: 75 },
-	{ name: "JavaScript", skill: 55 },
+	{ name: "Java", skill: 70 },
+	{ name: "JavaScript", skill: 40 },
 	{ name: "PostgreSQL", skill: 53 },
 	{ name: "MySQL", skill: 62 },
 	{ name: "Docker", skill: 79 },
@@ -38,5 +38,11 @@ export const PROJECTS = [
 		desc: "This project is also written in python and uses the PyPDF2 library to merge multiple pdf files into one pdf file. It is a simple and short code, it just has 15 lines",
 		img: "https://image.freepik.com/free-vector/text-files-concept-illustration_114360-4402.jpg",
 		link: "https://github.com/cr-trojan23/merge-pdf",
+	},
+	{
+		title: "Portfolio Website",
+		desc: "This is my portfolio website. It is written in ReactJS and uses the react-router-dom library to navigate between pages.",
+		img: "https://image.freepik.com/free-vector/text-files-concept-illustration_114360-4402.jpg",
+		link: "https://github.com/cr-trojan23/portfolio-website",
 	},
 ];

@@ -81,7 +81,7 @@ const LandingSection = () => {
 						Hey, I am <span className="orange">Srinivas Vangipuram</span>
 					</h2>
 					<h3 className="sub-heading">
-						I am a <span className="green">DevOps Engineer</span>
+						Currently in love with <span className="green">Fintech</span>
 					</h3>
 				</article>
 				<img src={Illustration} alt="Illustration" className="landing-il" />
